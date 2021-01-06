@@ -1,0 +1,14 @@
+{
+  "entryPoints": ["./src/lib/index.ts"],
+  "out": "docs",
+  "gitRevision": "main",
+  "plugin": [
+    "none"
+  ],
+  "exclude": [
+    "**/__tests__/*.ts"
+  ],
+  "excludeProtected": true,
+  "excludePrivate": true,
+  "excludeExternals": true
+}
